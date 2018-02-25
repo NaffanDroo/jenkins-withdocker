@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.108
+FROM jenkins/jenkins:2.92
 MAINTAINER nathan@nathandrew.org
 USER root
 
@@ -16,4 +16,3 @@ RUN apt-get update && \
       stable" && \
    apt-get update && \
    apt-get -y install docker-ce
-
