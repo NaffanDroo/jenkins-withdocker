@@ -16,4 +16,4 @@ RUN apt-get update && \
       stable" && \
    apt-get update && \
    apt-get -y install docker-ce && \
-   /usr/local/bin/install-plugins.sh docker-slaves github-branch-source:1.8 configuration-as-code:1.0-rc1
+   /usr/local/bin/install-plugins.sh docker-slaves github-branch-source:1.8 configuration-as-code:1.0-rc2
