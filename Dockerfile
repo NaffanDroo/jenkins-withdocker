@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.121.3
+FROM jenkins/jenkins:2.138.1
 MAINTAINER nathan@nathandrew.org
 USER root
 
